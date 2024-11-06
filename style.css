@@ -12,8 +12,7 @@ header {
 .header-logo img {
 	color: #fff;
 	padding: 0 2em;
-	transition: all 100ms infinite alternate;
-	transition-delay: 0ms;
+	transition: transform 100ms 0ms ease-in-out;
 }
 
 .header-logo img:hover {
@@ -81,7 +80,7 @@ i {
 		font-size: 34px;
 	}
 	.header-logo img {
-		width: 160px;
+		width: 100%;
 		margin-top: 46px;
 	}
 	.header-button {
